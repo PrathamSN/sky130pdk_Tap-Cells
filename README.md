@@ -1,6 +1,6 @@
 # SKY130 CMOS Well and Substrate Tap Cells (`ntap` & `ptap`)
 
-Custom physical layout implementations of N-well tap (`ntap`) and P-substrate tap (`ptap`) cells designed in **Magic VLSI** using the open-source **SkyWater SKY130 PDK (`sky130A`)**.
+Custom physical layout implementations of N-well tap (`ntap`) and P-substrate tap (`ptap`) cells designed in **Magic VLSI** using the open-source **SkyWater SKY130 PDK **.
 
 ## Overview
 In bulk CMOS processes, parasitic PNP and NPN bipolar junction transistors form a four-layer PNPN thyristor structure between `Vdd` and `Vss`. Without low-impedance body ties placed at regular intervals, substrate or well currents can forward-bias these junctions and trigger **latch-up**. 
