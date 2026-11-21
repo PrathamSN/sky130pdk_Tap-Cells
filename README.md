@@ -39,4 +39,10 @@ These tap cells provide dedicated ohmic contacts to anchor the N-well to `Vdd` a
 
 | Layer Name (Magic) | Purpose | Used in `ntap` | Used in `ptap` |
 | :--- | :--- | :---: | :---: |
-| `nwell` | Defines
+| `nwell` | Defines the N-well region[cite: 1] | Yes[cite: 1] | No[cite: 2] |
+| `ntap` (`nsd`) | $n^+$ well-tie diffusion/implant[cite: 1] | Yes[cite: 1] | No |
+| `ptap` (`psd`) | $p^+$ substrate-tie diffusion/implant[cite: 2] | No | Yes[cite: 2] |
+| `licon` | Contact between tap diffusion and `li1` | Yes[cite: 1] | Yes[cite: 2] |
+| `li1` | Local Interconnect routing layer | Yes[cite: 1] | Yes[cite: 2] |
+| `mcon` | Via between `li1` and `met1`[cite: 1, 2] | Yes[cite: 1] | Yes[cite: 2] |
+| `met1` | Metal 1 routing to `Vdd` / `Vss` pins[cite: 1, 2] | Yes[cite: 1] | Yes[cite: 2] |
