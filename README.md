@@ -1,4 +1,3 @@
-# sky130pdk_Tap-Cells
 # SKY130 CMOS Well and Substrate Tap Cells (`ntap` & `ptap`)
 
 Custom physical layout implementations of N-well tap (`ntap`) and P-substrate tap (`ptap`) cells designed in **Magic VLSI** using the open-source **SkyWater SKY130 PDK (`sky130A`)**.
